@@ -1,6 +1,6 @@
 # Sentry Cloudflare Pages Bug
 
-This repository is a demonstration of a bug in Sentry's integration with Cloudflare Pages.
+This repository is a demonstration of a bug when adding Sentry to a Next.js project which is then build with @cloudflare/next-on-pages. This massively bloats up the bundle size, making it impossible to deploy.
 
 Related issue: https://github.com/cloudflare/next-on-pages/issues/860
 
